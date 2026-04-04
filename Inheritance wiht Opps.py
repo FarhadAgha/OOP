@@ -32,4 +32,4 @@ print(dog.fetch())
 
 print(cat.info())        
 print(cat.speak())       
-print(cat.scratch())     
+print(cat.scratch())    
