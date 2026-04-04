@@ -15,7 +15,7 @@ class Dog(Animal):
     
     def fetch(self):
         return f"{self.name} is fetching the ball"
-
+        
 class Cat(Animal):
     def speak(self):
         return f"{self.name} says Meow!"
