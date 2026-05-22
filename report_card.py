@@ -98,7 +98,7 @@ class ReportCard:
 
 # ========== MAIN PROGRAM ==========
 if __name__ == "__main__":
-    school = ReportCard()
+    school = ReportCard() 
     school.load_from_csv('students_data.csv')
     school.show_report()
     school.show_top_student()  
