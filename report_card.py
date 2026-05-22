@@ -3,7 +3,7 @@ import pandas as pd
 class Student:
     """A simple Student class"""
     def __init__(self, name, math, english, science):
-        self.name = name
+        self.name = name 
         self.math = math
         self.english = english
         self.science = science
