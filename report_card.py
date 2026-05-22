@@ -96,7 +96,7 @@ class ReportCard:
             print(f"  {grade}: {count} student(s)")
 
 
-# ========== MAIN PROGRAM ==========
+# ========== MAIN PROGRAM =======
 if __name__ == "__main__":
     school = ReportCard() 
     school.load_from_csv('students_data.csv')
